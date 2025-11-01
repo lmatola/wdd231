@@ -4,7 +4,7 @@ const navBar = document.querySelector('#nav-bar');
 navButton.addEventListener('click', () => {
   navBar.classList.toggle('open');
 
-  // Toggle icon: ☰ (hamburger) → ✕ 
+  // humburguer menu
   if (navBar.classList.contains('open')) {
     navButton.textContent = '✕';
   } else {
