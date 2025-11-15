@@ -14,7 +14,7 @@ body {
 
 h1 {
     margin-left: 10px;
-      color: #ffffff;
+    color: #ffffff;
 }
 
 html {
@@ -246,6 +246,7 @@ footer p {
 .list-view {
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }
 
 .list-view .members-card {
