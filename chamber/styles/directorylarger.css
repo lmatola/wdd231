@@ -222,7 +222,7 @@ footer p {
 }
 
 .members-card {
-    background-color: hsl(0, 69%, 76%);
+    background-color: hsl(0, 4%, 74%);
     padding: 1em;
 }
 
@@ -277,7 +277,7 @@ footer p {
 }
 
 .allbtn button {
-    background-color: hsl(0, 69%, 76%);
+    background-color: hsl(0, 2%, 49%);
     padding: 10px;
     border-radius: 10px;
     font-size: 15px;
