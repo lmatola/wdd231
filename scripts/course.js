@@ -114,6 +114,7 @@ wddBtn.addEventListener('click', () => {
 
 displayButtons(courses);
 
+//const course = document.getElementById('course-details');
 
 function displayCourseDetails(course) {
   courseDetails.innerHTML = '';
