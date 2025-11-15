@@ -5,7 +5,6 @@
 }
 
 body {
-    background: #3b3d43;
     min-height: 100%;
     margin: 0;
     font-family: "Poppins";
@@ -14,7 +13,7 @@ body {
 
 h1 {
     margin-left: 10px;
-    color: #ffffff;
+
 }
 
 html {
@@ -222,7 +221,8 @@ footer p {
 }
 
 .members-card {
-    background-color: hsl(0, 4%, 74%);
+    background-color: hsl(0, 20%, 95%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
     padding: 1em;
 }
 
