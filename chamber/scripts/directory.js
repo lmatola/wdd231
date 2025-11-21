@@ -4,15 +4,15 @@ const toggleMenuOpen = () => document.body.classList.toggle("open");
 const url = 'data/members.json';
 const cards = document.querySelector('#cards');
 
-async function getProphetData() {
+async function getMembersData() {
     const response = await fetch(url); // request
     const data = await response.json(); // parse the JSON data
     //console.table(data.prophets); // temp output test of data response
-    displayProphets(data.members);
+    displayMembers(data.members);
 }
-getProphetData();
+getMembersData();
 
-const displayProphets = (members) => {
+const displayMembers = (members) => {
     members.forEach((member) => {
         // Create elements to add to the div.cards element
         let card = document.createElement('section');
@@ -25,7 +25,7 @@ const displayProphets = (members) => {
         let memberShipLevel = document.createElement('p')
         memberShipLevel.id = 'memberlevel'
 
-        // Build the h2 and p content out to show the member's namename and other details
+        // Build the h2 and p content out to show the member's name and other details
         companyName.textContent = `${member.companyname}`;
         address.textContent = `Adress: ${member.address}`;
         phoneNumber.textContent = `Phone: ${member.phonenumber}`;
@@ -53,9 +53,6 @@ const displayProphets = (members) => {
         cards.appendChild(card);
     }); // end of arrow function and forEach loop
 }
-
-
-
 
 document.addEventListener('DOMContentLoaded', function () {
     const itemsContainer = document.getElementById('cards');
