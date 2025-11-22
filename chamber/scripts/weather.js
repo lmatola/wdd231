@@ -2,16 +2,16 @@ const currentTemp = document.querySelector('#current-temp');
 const weatherIcon = document.querySelector('#weather-icon');
 const captionDesc = document.querySelector('figcaption');
 
-const myKey = "77cc650ead08da0d1ff3c9fd73d7e005";
-const myLat = '19.50';
-const myLon = '34.51';
+const myKey = "706d049fda23c82bca65331eb1cda3d0";
+const myLat = '-19.8462892';
+const myLon = '34.852085';
 
 
-const myURL = `https://api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLon}&appid=${myKey}&units=imperial`;
+const myUrl = `https://api.openweathermap.org/data/3.0/onecall?lat=${myLat}&lon=${myLon}&exclude={part}&appid=${myKey}`;
 
 async function apiFetch() {
   try {
-    const response = await fetch(myURL);
+    const response = await fetch(myUrl);
     if (response.ok) {
       const data = await response.json();
       console.log(data);
@@ -19,6 +19,8 @@ async function apiFetch() {
     } else {
       throw Error(await response.text());
     }
+
+    ``
   } catch (error) {
     console.log(error);
   }
