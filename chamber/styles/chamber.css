@@ -278,6 +278,87 @@ footer p {
 
 }
 
+
+@media only screen and (min-width: 600px) {
+
+    .navbar-menu {
+        position: static;
+        translate: 0 0;
+        width: auto;
+        background: transparent;
+        flex-direction: row;
+        visibility: visible;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        padding: 0 0 0 16px;
+    }
+
+    .navbar-overlay {
+        display: none;
+    }
+
+    .navbar-burger {
+        display: none;
+    }
+
+    .navbar-menu>button {
+        color: rgba(255, 255, 255, 0.5);
+        background: transparent;
+        padding: 0 8px;
+    }
+
+    .navbar-menu>button.active {
+        color: inherit;
+    }
+
+
+    footer {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        background-color: #1a1a1a;
+        text-align: center;
+        font-size: 0.9rem;
+        color: #ffffff;
+    }
+
+
+    footer .contact {
+        justify-items: left;
+    }
+
+    footer .myinformation {
+        justify-items: left;
+    }
+
+}
+
+@media (min-width: 768px) {
+
+
+    .stats {
+        grid-template-columns: 2fr 1fr 1fr;
+    }
+
+    .grid-view {
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .member-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+
+
+}
+
+
+
+
 .spotlight-card {
     background-color: #ffffff;
     border: 1px solid #ddd;
