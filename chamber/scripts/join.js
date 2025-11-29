@@ -67,7 +67,7 @@ document.addEventListener("DOMContentLoaded", () => {
         const cardDetails = document.getElementById('cardDetails');
         cardDetails.innerHTML = `
         <button id="closeModal">❌</button>
-        <h2>${card.subject}</h2>
+        <h2>${card.subject} ${card.number}</h2>
         <h3>${card.title}</h3>
         <p><strong>Cost</strong>: ${card.cost}</p>
         <p><strong>Certificate</strong>: ${card.certificate}</p>
