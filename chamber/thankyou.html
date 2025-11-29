@@ -31,7 +31,8 @@
 
     <script src="scripts/getdates.js" defer></script>
     <script src="scripts/chamber.js" defer></script>
-    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
+
 
 
 </head>
@@ -67,72 +68,12 @@
     </header>
 
     <main>
-        <div class="content-container">
-            <div class="form-container">
-                <h1 class="call">Join the Chamber of Commerce</h1>
+        <h1>Thank you for your commitment to our community!</h1>
+        <h2>New Member Details</h2>
 
-                <form method="GET" action="thankyou.html">
+        <div id="results"></div>
 
-                    <label>First Name <input type="text" name="first" required autocomplete="given-name"
-                            title="Your First Name"></label>
-                    <label>Last Name <input type="text" name="last" required autocomplete="family-name"
-                            title="Your Last Name"></label>
-                    <label>Organizational Title <input type="text" name="title" required
-                            autocomplete="organization-title" title="Your Title"></label>
-                    <label>Cell Phone <input type="tel" name="phone" autocomplete="tel" title="Phone Number"
-                            placeholder="+258 848 943 919"></label>
-                    <label>Email <input type="email" name="email" required placeholder="lazarofmatola@gmail.com"
-                            title="Your Email" autocomplete="email"></label>
-                    <label>Business Name <input type="text" name="business" required autocomplete="organization"
-                            title="Your Business"></label>
-
-                    <h2>Select Membership Level</h2>
-
-                    <label><input type="radio" name="level" value="Gold" checked> Gold</label>
-                    <label><input type="radio" name="level" value="Silver"> Silver</label>
-                    <label><input type="radio" name="level" value="Bronze"> Bronze</label>
-                    <label><input type="radio" name="level" value="Non-profit"> Non-profit</label>
-
-                    <label>Business/Organization Description:
-                        <textarea name="comments" rows="5"
-                            placeholder="Let us know what service your business provides our community"></textarea>
-                    </label>
-
-                    <input type="hidden" id="timestamp" name="timestamp" value="">
-                    <input type="submit" value="Join Now!">
-                </form>
-            </div>
-            <div class="membership-levels">
-                <h2>Membership Levels</h2>
-                <div class="card">
-                    <h2>Gold Membership Level</h2>
-                    <a href="#" class="learn-more" data-course-index="0">
-                        <h3>Learn More</h3>
-                    </a>
-                </div>
-                <div class="card">
-                    <h2>Silver Membership Level</h2>
-                    <a href="#" class="learn-more" data-course-index="1">
-                        <h3>Learn More</h3>
-                    </a>
-                </div>
-                <div class="card">
-                    <h2>Bronze Membership Level</h2>
-                    <a href="#" class="learn-more" data-course-index="2">
-                        <h3>Learn More</h3>
-                    </a>
-                </div>
-                <div class="card">
-                    <h2>Non-profit Membership Level</h2>
-                    <a href="#" class="learn-more" data-course-index="3">
-                        <h3>Learn More</h3>
-                    </a>
-                </div>
-            </div>
-        </div>
     </main>
-
-    <dialog id="cardDetails" class="modal"> </dialog>
 
     <footer>
 
