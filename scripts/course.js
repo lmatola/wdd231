@@ -102,19 +102,19 @@ const wddBtn = document.getElementById('filter-wdd');
 
 
 allBtn.addEventListener('click', () => displayButtons(courses));
+
 cseBtn.addEventListener('click', () => {
   const cseCourses = courses.filter(course => course.subject === 'CSE');
   displayButtons(cseCourses);
 });
+
 wddBtn.addEventListener('click', () => {
   const wddCourses = courses.filter(course => course.subject === 'WDD');
   displayButtons(wddCourses);
 });
 
-
 displayButtons(courses);
 
-//const course = document.getElementById('course-details');
 
 function displayCourseDetails(course) {
   courseDetails.innerHTML = '';
@@ -137,7 +137,3 @@ function displayCourseDetails(course) {
 courseDiv.addEventListener('click', () => {
   displayCourseDetails(course);
 });
-
-
-
-

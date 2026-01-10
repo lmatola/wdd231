@@ -18,66 +18,78 @@
 
     <link rel="icon" href="images/favicon.ico">
 
-    <link rel="stylesheet" href="styles/small.css">
+    <!--Style Sheets Here-->
+
+    <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
 
+    <!--Fonte Family-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@100;400;700&display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
 
-    <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/course.js" defer></script>
+    <!-- Java Scripts Here-->
     <script src="scripts/navigation.js" defer></script>
-    <script src="scripts/json.js" defer></script>
-    <script src="scripts/asyncawait.js" defer></script>
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/course.js" defer></script>
 
 </head>
+
 
 <body>
 
     <header>
-        <img src="images/mylogo.svg" alt="Site Logo" width="512" height="512" />
-        <span>WDD 231 - Lazaro Felizardo Matola</span>
-        <button id="ham-btn" class="hamburger" aria-label="Toggle navigation menu">☰</button>
 
+        <div class="brand">
+            <img src="images/mylogo.svg" alt="site logo" width="15" height="15">
+            <span>Lazaro Felizardo Matola</span>
+        </div>
+
+        <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
     </header>
 
     <nav id="nav-bar" class="navigation">
         <ul>
-            <li><a href="#" class="active">Home</a></li>
-            <li><a href="chamber/index.html">Chamber</a></li>
-            <li><a href="final/index.html">Final</a></li>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="chamber/index.html">Chamber Project</a></li>
+            <li><a href="final/index.html">Final Project</a></li>
         </ul>
     </nav>
 
     <main class="main">
         <h1 class="hero-text">Home</h1>
 
-        <!-- Section 1: About Me -->
-        <section class="about-section">
-            <h2 class="res-text">About Me</h2>
-            <p>
-                My name is Lazaro Felizardo Matola, I'm 40 years old and I'm married to a wonderful woman who gave me
-                hree beautiful children. My oldest child is 19 years old, the middle one is 10 years old and the last
-                one she is just 5 years old. I'm so happy because my eldest son is going to serve a mission in Brazil,
-                as he will be the first missionary in the family. I really enjoy learning and helping others. I'm taking
-                a computer
-                science course and it's been very challenging, as I have to divide my time between studying, working and
-                taking care of
-                my family. I hope I can learn a lot in this class.
-            </p>
-        </section>
+        <div class="myinfo">
+            <!-- Section 1: About Me -->
+            <section class="about-section">
+                <h2 class="res-text">About Me</h2>
+                <p>
+                    My name is Lazaro Felizardo Matola, I'm 40 years old and I'm married to a wonderful woman who gave
+                    me
+                    hree beautiful children. My oldest child is 19 years old, the middle one is 10 years old and the
+                    last
+                    one she is just 5 years old. I'm so happy because my eldest son is going to serve a mission in
+                    Brazil,
+                    as he will be the first missionary in the family. I really enjoy learning and helping others. I'm
+                    taking
+                    a computer
+                    science course and it's been very challenging, as I have to divide my time between studying, working
+                    and
+                    taking care of
+                    my family. I hope I can learn a lot in this class.
+                </p>
+            </section>
 
-        <!-- Section 2: Profile Picture -->
-        <section class="profile-section">
-            <h2 class="abj-text">Student Photo</h2>
-            <figure>
-                <img src="images/me.jpg" alt="Lazaro Felizardo Matola" loading="lazy" width="150" height="200" />
-                <figcaption>Lazaro Felizardo Matola</figcaption>
-            </figure>
-        </section>
+            <!-- Section 2: Profile Picture -->
+            <section class="profile-section">
+                <h2 class="abj-text">Student Photo</h2>
+                <figure>
+                    <img src="images/me.jpg" alt="Lazaro Felizardo Matola" loading="lazy" width="150" height="200" />
+                    <figcaption>Lazaro Felizardo Matola</figcaption>
+                </figure>
+            </section>
+        </div>
 
         <!-- Section 3: Course Work -->
 
@@ -93,24 +105,34 @@
             <div id="total-credits"></div>
         </section>
 
+        <!-- Modal -->
         <dialog id="course-details"></dialog>
 
     </main>
 
-
     <footer>
         <div class="socials">
+
             <a href="https://github.com/lmatola" target="_blank">
                 <img src="images/github.svg" alt="GitHub-logo" width="12" height="12" />
             </a>
+
             <a href="https://www.linkedin.com/in/lazaro-felizardo-matola-88202b107" target="_blank">
                 <img src="images/linkedin.svg" alt="LinkedIn-logo" width="12" height="12" />
             </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="facebook-logo width=" 12" height="12" />
+            </a>
+
             <a href="https://x.com/i/flow/login" target="_blank">
                 <img src="images/twitter-x.svg" alt="Twitter-logo" width="12" height="12" />
             </a>
+
         </div>
+
         <p>&copy; <span id="currentyear"></span> - Lazaro Felizardo Matola - Beira, Mozambique</p>
+
         <p id="lastModified"></p>
     </footer>
 
