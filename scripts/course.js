@@ -108,6 +108,9 @@ cseBtn.addEventListener('click', () => {
   displayButtons(cseCourses);
 });
 
+
+
+
 wddBtn.addEventListener('click', () => {
   const wddCourses = courses.filter(course => course.subject === 'WDD');
   displayButtons(wddCourses);
@@ -125,8 +128,7 @@ function displayCourseDetails(course) {
     <p><strong>Credits</strong>: ${course.credits}</p>
     <p><strong>Certificate</strong>: ${course.certificate}</p>
     <p>${course.description}</p>
-    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
-  `;
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>`;
   courseDetails.showModal();
 
   closeModal.addEventListener("click", () => {
@@ -137,3 +139,4 @@ function displayCourseDetails(course) {
 courseDiv.addEventListener('click', () => {
   displayCourseDetails(course);
 });
+

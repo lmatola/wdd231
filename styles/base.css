@@ -6,7 +6,6 @@ deep slate blue  #3D405B
 /*------------------------- SITE WIDE --------------------------*/
 
 * {
-    margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
@@ -106,6 +105,7 @@ h1 {
 
 /* Main */
 main.main {
+
     padding: 1rem;
     flex-grow: 1;
 }
