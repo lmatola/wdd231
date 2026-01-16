@@ -1,5 +1,3 @@
-const toggleMenuOpen = () => document.body.classList.toggle("open");
-
 
 const url = 'data/members.json';
 const cards = document.querySelector('#cards');

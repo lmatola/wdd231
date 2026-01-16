@@ -73,4 +73,12 @@
     justify-content: space-around;
   }
 
+  #memberlevel {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 10px;
+  }
+
 }
