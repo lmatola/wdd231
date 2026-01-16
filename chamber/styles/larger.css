@@ -66,6 +66,9 @@
 
   .allbtn button {
     padding: 5px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 5px;
   }
 
   footer {
