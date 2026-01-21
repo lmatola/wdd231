@@ -5,12 +5,12 @@
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Beira City Chamber of Commerce Directory</title>
+    <title>Beira City Chamber of Commerce Home Page</title>
     <meta name="description"
         content="WDD 231 - Web Frontend Development - Lazaro Felizardo Matola home page for the WDD 231 course">
     <meta name="author" content="Lazaro Felizardo Matola">
 
-    <meta property="og:title" content="Beira City Chamber of Commerce Directory">
+    <meta property="og:title" content="Beira City Chamber of Commerce Home">
     <meta property="og:type" content="website">
     <meta property="og:image" content="https://lmatola.github.io/wdd231/images/me.jpg">
     <meta property="og:url" content="https://www.facebook.com">
@@ -22,6 +22,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/basehome.css">
+    <link rel="stylesheet" href="styles/largerhome.css">
 
 
     <!--Fonte Family-->
@@ -31,8 +33,9 @@
         rel="stylesheet">
 
     <script src="scripts/dates.js" defer></script>
-    <script src="scripts/directory.js" defer></script>
+    <script src="scripts/home.js" defer></script>
     <script src="scripts/navigation.js" defer></script>
+    <!--<script src="scripts/weather.js" defer></script>-->
 
 
 </head>
@@ -56,11 +59,10 @@
 
         <nav id="nav-bar" class="navigation">
             <ul>
-                <li><a href="https://lmatola.github.io/wdd231/chamber/index.html">Home</a></li>
-                <li class="current"><a href="https://lmatola.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li class="current"><a href="https://lmatola.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/directory.html">Directory</a></li>
                 <li><a href="https://lmatola.github.io/wdd231/chamber/join.html">Join</a></li>
-                <li><a href="https://lmatola.github.io/wdd231/chamber/discover.html">Discover</a></li>
-
+                <li></li><a href="https://lmatola.github.io/wdd231/chamber/discover.html">Discover</a></li>
             </ul>
         </nav>
 
@@ -69,17 +71,72 @@
 
     <main>
 
-        <h1>Directory</h1>
+        <div class="hero">
+            <img src="images/beiracity2.webp" alt="beiracity">
+            <a href="https://lmatola.github.io/wdd231/chamber/join.html">
+                <h3>Join Us Today!</h3>
+            </a>
+        </div>
 
-        <div id="view-toggle" class="allbtn">
+        <h1>Home Page</h1>
 
-            <button id="grid-btn">Grid View</button>
-            <button id="list-btn">List View</button>
+        <div class="stats">
+
+            <div class="box">
+                <h4 class="title">Events</h4>
+
+                <p>Marine Biodiversity Conference: The 3rd edition of the conference will take place in June, with panel
+                    discussions and networking.</p>
+                <p>TVM Charity Gala: The launch of the 2025 edition will take place in November, with live streaming.
+                </p>
+                <p>IGUAL Program: The closing event, focused on youth initiatives, will be held in November.</p>
+                <p>Standard Bank Blue Run: The 7th edition of the event will take place in December.</p>
+
+            </div>
+
+            <div class="box">
+                <h4 class="title">Current Weather</h4>
+                <p>The current temperature in <span id="town"></span> City is <span id="temperature"></span></p>
+
+                <div class="tempinfo">
+
+                    <div class="grap">
+                        <img id="graphic" src="" alt="">
+                        <p id="description"></p>
+                    </div>
+
+                    <div class="p-info">
+                        <p id="high-temp"></p>
+                        <p id="low-temp"></p>
+                        <p id="humidity"></p>
+                        <p id="sunrise"></p>
+                        <p id="sunset"></p>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="box">
+
+                <h4 class="title">Weather Forecast</h4>
+
+                <div class="forecast-container">
+                    <div id="forecast" class="forecast"></div>
+                </div>
+
+            </div>
 
         </div>
 
 
         <div class="grid-view" id="cards"></div>
+
 
     </main>
 
