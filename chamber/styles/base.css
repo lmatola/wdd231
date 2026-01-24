@@ -16,12 +16,16 @@ deep slate blue  #3D405B
 /*------------------------- HEADER --------------------------*/
 
 header {
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: space-between;
     background-color: #1a1a1a;
     color: #ffffff;
 }
+
+/*header {
+    display: block;
+}*/
 
 .brand {
     display: flex;
@@ -63,9 +67,6 @@ header span {
 
 
 /*------------------------- NAVIGATION --------------------------*/
-header {
-    display: block;
-}
 
 .logo {
     padding: 1rem;
