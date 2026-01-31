@@ -6,7 +6,6 @@ deep slate blue  #3D405B
 /*------------------------- SITE WIDE --------------------------*/
 
 * {
-    margin: 0;
     padding: 0;
     font-family: "Josefin Sans", sans-serif;
     box-sizing: border-box;
@@ -21,6 +20,7 @@ header {
     justify-content: space-between;
     background-color: #1a1a1a;
     color: #ffffff;
+    margin: 0;
 }
 
 /*header {
@@ -222,6 +222,7 @@ footer {
 footer .socials {
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 1.5rem;
     margin-bottom: 1.5rem;
     margin-top: 1.5rem;
