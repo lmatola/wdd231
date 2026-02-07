@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beira City Chamber of Commerce Join</title>
+    <meta name="description"
+        content="WDD 231 - Web Frontend Development - Lazaro Felizardo Matola Join page for the WDD 231 course">
+    <meta name="author" content="Lazaro Felizardo Matola">
+
+    <meta property="og:title" content="Beira City Chamber of Commerce Join">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lmatola.github.io/wdd231/images/me.jpg">
+    <meta property="og:url" content="https://www.facebook.com">
+    <meta property="og:description"
+        content="The Join page for Beira City Chamber of Commerce where member can share their products">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/join.css">
+
+
+    <!--Fonte Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/join.js" defer></script>
+    <script src="scripts/thanks.js" defer></script>
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <div class="brand">
+                <img src="images/mylogo.svg" alt="site logo" width="15" height="15">
+                <span>Lazaro Felizardo Matola</span>
+            </div>
+
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+
+        </div>
+
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li class="current"><a href="https://lmatola.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/discover.html">Discover</a></li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <div class="content-container">
+
+            <div class="form-container">
+
+                <h1 class="call">Join the Chamber of Commerce</h1>
+
+                <form method="GET" action="thankyou.html">
+
+                    <label>First Name <input type="text" name="first" required autocomplete="given-name"
+                            title="Your First Name"></label>
+
+                    <label>Last Name <input type="text" name="last" required autocomplete="family-name"
+                            title="Your Last Name"></label>
+
+                    <label>Organizational Title <input type="text" name="organization title" required
+                            autocomplete="organization-title" title="Your Title"></label>
+
+                    <label>Cell Phone <input type="tel" name="phone" required autocomplete="tel"
+                            title="A Phone Number with dashes" placeholder="+258-848-943-919"></label>
+
+                    <label>Email <input type="email" name="email" required placeholder="lazarofmatola@gmail.com"
+                            title="Your Email" autocomplete="email"></label>
+
+                    <label>Business Name <input type="text" name="business name" required autocomplete="organization"
+                            title="your business"></label>
+
+                    <h2>Select Membership Level</h2>
+
+                    <label><input type="radio" name="membership level" value="np" checked> Non-Profit</label>
+                    <label><input type="radio" name="membership level" value="bronze"> Bronze</label>
+                    <label><input type="radio" name="membership level" value="silver"> Silver</label>
+                    <label><input type="radio" name="membership level" value="gold"> Gold</label>
+
+
+
+
+                    <h2>description</h2>
+
+                    <label>Business/Organization Description:
+                        <textarea name="comments" rows="5"
+                            placeholder="Let us know what service your business provides our community"></textarea>
+                    </label>
+
+                    <input type="hidden" id="timestamp" name="timestamp" value="">
+                    <input type="submit" value="Join Now!">
+                </form>
+            </div>
+
+            <div class="membership-levels">
+
+                <h2>Membership Levels</h2>
+
+                <div class="card">
+                    <h3>Gold Membership Level</h3>
+                    <a href="#" class="learn-more" data-course-index="0">
+                        <h3>Learn More</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>Silver Membership Level</h3>
+                    <a href="#" class="learn-more" data-course-index="1">
+                        <h3>Learn More</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>Bronze Membership Level</h3>
+                    <a href="#" class="learn-more" data-course-index="2">
+                        <h3>Learn More</h3>
+                    </a>
+                </div>
+                <div class="card">
+                    <h3>Non-profit Membership Level</h3>
+                    <a href="#" class="learn-more" data-course-index="3">
+                        <h3>Learn More</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <dialog id="cardDetails" class="modal"> </dialog>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Beira City Chamber of Commerce</strong></p>
+            <p>256 Main Street</p>
+            <p>Beira City, BC 95993</p>
+            <p>@beiracity.org</p>
+            <p>258-576-6456</p>
+        </div>
+
+        <div class="socials">
+
+            <a href="https://github.com/lmatola" target="_blank">
+                <img src="images/github.svg" alt="GitHub-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/lazaro-felizardo-matola-88202b107" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="facebook-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://x.com/i/flow/login" target="_blank">
+                <img src="images/twitter-x.svg" alt="Twitter-logo" width="12" height="12" />
+            </a>
+
+        </div>
+
+        <div class="myinformation">
+            <p>WDD231 Class Project</p>
+            <p>Lazaro Felizardo Matola</p>
+
+            <p>&copy; <span id="currentyear"></span> - Beira Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

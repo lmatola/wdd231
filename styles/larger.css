@@ -1,0 +1,73 @@
+@media only screen and (min-width: 38rem) {
+
+   /* header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }*/
+
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        border-bottom: solid 1px #eee;
+    }
+
+    .navigation ul {
+        display: flex;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+
+
+
+  .about-profile-wrapper img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+
+
+
+  #course-buttons {
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+
+  .myinfo {
+    display: grid;
+    grid-template-columns:2fr 1fr;
+    justify-content: center;
+    gap: 20px;
+
+
+  }
+
+    .about-section,
+  .profile-section {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0, 0.5);
+    border-radius: 5px;
+
+  }
+
+  .about-section p {
+    padding: 15px;
+  }
+
+
+}

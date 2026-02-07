@@ -1,0 +1,159 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a | */
+@import url('https://fonts.googleapis.com/css?family=Orelega+One|Oswald');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #000000;
+  --secondary-color: #3f3d3d;
+  --accent1-color: #888a87;
+  --accent2-color: #d1cfce;
+  --accent3-color: #ffffff;
+
+  /* change the values below to your chosen font(s) */
+  --heading-font: "Orelega One";
+  --paragraph-font: Oswald, Helvetica, sans-serif;
+
+  /* these colors below should be chosen from among your palette colors above */
+  --headline-color-on-white: #000000;
+  /* headlines on a white background */
+  --headline-color-on-color: #000000;
+  /* headlines on a colored background */
+  --paragraph-color-on-white: #000000;
+  /* paragraph text on a white background */
+  --paragraph-color-on-color: #ffffff;
+  /* paragraph text on a colored background */
+  --text-background-color: #000000;
+  --nav-link-color: #ffffff;
+  --nav-background-color: #000000;
+  --nav-hover-link-color: #ffffff;
+  --nav-hover-background-color: #ffffff;
+}
+
+
+/*  Look around below...but DON'T CHANGE ANYTHING! */
+html {
+  background-color: var(--primary-color);
+}
+
+body {
+
+  margin: 0 auto;
+  background-color: white;
+  padding: 1em;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--heading-font);
+  color: var(--headline-color-on-white);
+}
+
+
+.colors {
+  width: 100%;
+  min-width: 350px;
+  margin: auto;
+  text-align: center;
+}
+
+.colors th {
+  background-color: #999;
+}
+
+.colors td {
+  width: 25%;
+  height: 3em;
+}
+
+.primary {
+  background-color: var(--primary-color);
+}
+
+.secondary {
+  background-color: var(--secondary-color);
+}
+
+.accent1 {
+  background-color: var(--accent1-color);
+}
+
+.accent2 {
+  background-color: var(--accent2-color);
+}
+
+.accent3 {
+  background-color: var(--accent3-color);
+}
+
+p.colored {
+  background-color: var(--text-background-color);
+  color: var(--paragraph-color-on-color);
+}
+
+
+
+.sitemap {
+  display: grid;
+  justify-content: center;
+
+  grid-template-columns: repeat(6, 15%);
+  grid-template-rows: 3em 1.5em 1.5em 3em;
+  grid-template-areas: ". . home home . ."
+    ". . . top . ."
+    ". left left right right ."
+    "page2 page2 . . page3 page3";
+}
+
+.sitemap>div {
+
+  text-align: center;
+
+}
+
+.sm-home {
+  grid-area: home;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 3em;
+}
+
+.sm-page2 {
+  grid-area: page2;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 3em;
+}
+
+.sm-page3 {
+  grid-area: page3;
+  background-color: #000000;
+  color: #ffffff;
+  line-height: 3em;
+}
+
+.top {
+  grid-area: top;
+  border-left: 1px solid;
+}
+
+.left {
+  grid-area: left;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.right {
+  grid-area: right;
+  border-top: 1px solid;
+  border-right: 1px solid;
+}

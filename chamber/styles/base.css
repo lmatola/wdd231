@@ -1,0 +1,254 @@
+/*------------------------- COLOR SCHEME--------------------------
+terra cotta #E07A5F
+deep slate blue  #3D405B
+*/
+
+/*------------------------- SITE WIDE --------------------------*/
+
+* {
+    padding: 0;
+    font-family: "Josefin Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+
+/*------------------------- HEADER --------------------------*/
+
+header {
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    margin: 0;
+}
+
+/*header {
+    display: block;
+}*/
+
+.brand {
+    display: flex;
+    align-items: center;
+}
+
+header img {
+    display: block;
+    width: 50px;
+    height: auto;
+    padding: 5px;
+
+}
+
+header span {
+
+    font-size: 1.2rem;
+    color: #ffffff;
+}
+
+
+/*------------------------- HUMBURGER --------------------------*/
+.hamburger {
+    background: none;
+    border: none;
+    font-size: 2rem;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: Verdana;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+
+/*------------------------- NAVIGATION --------------------------*/
+
+.logo {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation {
+
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 10px;
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom: solid 1px #ffffff;
+
+
+
+}
+
+
+.navigation li.current {
+    background-color: rgb(98, 98, 100);
+
+
+}
+
+.navigation a:hover {
+
+    background-color: rgb(98, 98, 100);
+
+
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+
+/*------------------------- MAIN --------------------------*/
+
+.members-card {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: hsl(0, 17%, 93%);
+    padding: 1em;
+}
+
+
+.grid-view img {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, .5);
+    /* Right, Down, Blur, Color */
+    margin-top: 10px;
+}
+
+
+.grid-view {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* List view styles */
+.list-view {
+    display: flex;
+    flex-direction: column;
+}
+
+.list-view .members-card {
+    /* Item specific styles for list */
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.allbtn {
+    display: flex;
+    justify-items: center;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    color: #ffffff;
+    margin-top: 10px;
+
+}
+
+.allbtn button {
+    padding: 5px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 5px;
+}
+
+
+#view-toggle {
+    display: flex;
+
+}
+
+.list-view .members-card img {
+    display: none;
+}
+
+.list-view .members-card #memberlevel {
+    display: none;
+
+}
+
+#memberlevel {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 10px;
+}
+
+/*------------------------- FOOTER --------------------------*/
+
+footer {
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ffffff;
+    margin-top: auto;
+}
+
+footer .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+}
+
+footer .socials a {
+    margin: 0 0.5rem;
+}
+
+footer .socials a img {
+    width: 35px;
+    height: 35px;
+    filter: grayscale(100%) brightness(100%) invert(100%);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+footer .socials a:hover img {
+    filter: none;
+    transform: scale(1.2);
+}
+
+.contact,
+.myinformation {
+    text-align: left;
+}
+
+#lastModified {
+    margin-top: 10px;
+}

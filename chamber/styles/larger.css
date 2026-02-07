@@ -1,0 +1,87 @@
+@media only screen and (min-width: 38rem) {
+
+  /* header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }*/
+
+  header {
+    padding: .7rem;
+    display: flex;
+    grid-template-columns: 24px auto;
+    font-size: 1.2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .navigation {
+    display: block;
+
+  }
+
+  .navigation ul {
+    display: flex;
+  }
+
+  .navigation a {
+    margin-left: 5px;
+    border: none;
+  }
+
+
+  .navigation li.current {
+    background-color: rgb(98, 98, 100);
+    border-radius: 5px;
+
+  }
+
+  .navigation a:hover {
+
+    background-color: rgb(98, 98, 100);
+    border-radius: 7px;
+  }
+
+  .grid-view {
+
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    gap: 1em;
+    margin: .5em;
+    text-align: center;
+    padding: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+  }
+
+  .contact,
+  .myinformation {
+    text-align: left;
+  }
+
+  .allbtn button {
+    padding: 5px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 5px;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  #memberlevel {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(98, 98, 100);
+    color: #ffffff;
+    border-radius: 10px;
+  }
+
+}

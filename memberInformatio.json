@@ -1,0 +1,38 @@
+{
+    "family_name": "Matola",
+    "move_in_date": "2014-06-14",
+    "number_of_people": 5,
+    "visited_by_bishopric": true,
+    "family_members": [
+        {
+            "name": "Lazaro Matola",
+            "gender": "Male",
+            "birthdate": "1983-07-31"
+        },
+        {
+            "name": "Albertina Matola",
+            "gender": "Female",
+            "birthdate": "1987-03-01"
+        },
+        {
+            "name": "Felizardo Matola",
+            "gender": "Male",
+            "birthdate": "2005-09-08"
+        },
+        {
+            "name": "Nelo Matola",
+            "gender": "Male",
+            "birthdate": "2012-10-28"
+        },
+        {
+            "name": "Jade Matola",
+            "gender": "Female",
+            "birthdate": "2020-03-12"
+        },
+        {
+            "name": "Agatha Matola",
+            "gender": "Female",
+            "birthdate": "2025-07-23"
+        }
+    ]
+}

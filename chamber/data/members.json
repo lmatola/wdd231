@@ -1,0 +1,68 @@
+{
+    "members": [
+        {
+            "companyname": "Shoprite",
+            "address": "456 Samora Machel Street",
+            "phonenumber": "(+258) 84 330 4398",
+            "website": "https://www.shoprite.co.mz",
+            "image": "images/shoprite.webp",
+            "membershiplevel": "2"
+        },
+        {
+            "companyname": "CFM",
+            "address": "456 Main Street",
+            "phonenumber": "(+258) 85 360 7698",
+            "website": "https://www.cfm.co.mz/",
+            "image": "images/cfm.webp",
+            "membershiplevel": "1"
+        },
+        {
+            "companyname": "Mahindra",
+            "address": "395 Main Street",
+            "phonenumber": "(+258) 21 48 7645",
+            "website": "https://mahindra.co.mz/",
+            "image": "images/mahindra.webp",
+            "membershiplevel": "3"
+        },
+        {
+            "companyname": "Hotel Tivoli",
+            "address": "Av. Bagamoio, 366 Beira",
+            "phonenumber": " (+258) 21 48 4448",
+            "website": "https://www.tdhotels.com/",
+            "image": "images/hotel.webp",
+            "membershiplevel": "2"
+        },
+        {
+            "companyname": "HCB",
+            "address": "155 Tete ",
+            "phonenumber": "(+258) 87 848 9555",
+            "website": "https://www.hcb.co.mz",
+            "image": "images/hcb.webp",
+            "membershiplevel": "3"
+        },
+        {
+            "companyname": "TMcel",
+            "address": "324 Down Town",
+            "phonenumber": "(+258) 87 664 654",
+            "website": "www.frenchwhisk.com",
+            "image": "images/cellphones.webp",
+            "membershiplevel": "1"
+        },
+        {
+            "companyname": "Infrastruture Park",
+            "address": "285 Beira Street",
+            "phonenumber": "(+258) 83 658 9445",
+            "website": "www.parksdabeira.com",
+            "image": "images/park.webp",
+            "membershiplevel": "1"
+        },
+        {
+            "companyname": "Moz Computer",
+            "address": "418 Samora Machel Street",
+            "phonenumber": "(+258) 86 645 9425",
+            "website": "https://mozcomputers.com/",
+            "image": "images/computer.webp",
+            "membershiplevel": "2"
+        }
+    ]
+}

@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beira City Chamber of Commerce Home Page</title>
+    <meta name="description"
+        content="WDD 231 - Web Frontend Development - Lazaro Felizardo Matola home page for the WDD 231 course">
+    <meta name="author" content="Lazaro Felizardo Matola">
+
+    <meta property="og:title" content="Beira City Chamber of Commerce Home">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lmatola.github.io/wdd231/images/me.jpg">
+    <meta property="og:url" content="https://www.facebook.com">
+    <meta property="og:description"
+        content="The home page for Beira City Chamber of Commerce where member can share their products">
+
+    <link rel="icon" href="images/favicon.ico">
+
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/basehome.css">
+    <link rel="stylesheet" href="styles/largerhome.css">
+
+
+    <!--Fonte Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <!--<script src="scripts/weather.js" defer></script>-->
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <div class="brand">
+                <img src="images/mylogo.svg" alt="site logo" width="15" height="15">
+                <span>Lazaro Felizardo Matola</span>
+            </div>
+
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+
+        </div>
+
+
+        <nav id="nav-bar" class="navigation">
+            <ul>
+                <li class="current"><a href="https://lmatola.github.io/wdd231/chamber/index.html">Home</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/directory.html">Directory</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/join.html">Join</a></li>
+                <li><a href="https://lmatola.github.io/wdd231/chamber/discover.html">Discover</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <div class="hero">
+            <img src="images/beiracity.webp" alt="beira city landscape image">
+            <a href="https://lmatola.github.io/wdd231/chamber/join.html">
+                <h3>Join Us Today!</h3>
+            </a>
+        </div>
+
+        <h1>Home Page</h1>
+
+        <div class="stats">
+
+            <div class="box">
+                <h2 class="title">Events</h2>
+
+                <p>Marine Biodiversity Conference: The 3rd edition of the conference will take place in June, with panel
+                    discussions and networking.</p>
+                <p>TVM Charity Gala: The launch of the 2025 edition will take place in November, with live streaming.
+                </p>
+                <p>IGUAL Program: The closing event, focused on youth initiatives, will be held in November.</p>
+                <p>Standard Bank Blue Run: The 7th edition of the event will take place in December.</p>
+
+            </div>
+
+            <div class="box">
+                <h2 class="title">Current Weather</h2>
+                <p>The current temperature in <span id="town"></span> City is <span id="temperature"></span></p>
+
+                <div class="tempinfo">
+
+                    <div class="grap">
+                        <img id="graphic" src="" alt="">
+                        <p id="description"></p>
+                    </div>
+
+                    <div class="p-info">
+                        <p id="high-temp"></p>
+                        <p id="low-temp"></p>
+                        <p id="humidity"></p>
+                        <p id="sunrise"></p>
+                        <p id="sunset"></p>
+                    </div>
+
+
+                </div>
+
+
+
+
+            </div>
+
+
+            <div class="box">
+
+                <h2 class="title">Weather Forecast</h2>
+
+                <div class="forecast-container">
+                    <div id="forecast" class="forecast"></div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="grid-view" id="cards"></div>
+
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Beira City Chamber of Commerce</strong></p>
+            <p>256 Main Street</p>
+            <p>Beira City, BC 95993</p>
+            <p>@beiracity.org</p>
+            <p>258-576-6456</p>
+        </div>
+
+        <div class="socials">
+
+            <a href="https://github.com/lmatola" target="_blank">
+                <img src="images/github.svg" alt="GitHub image logo for my footer" width="12" height="12" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/lazaro-felizardo-matola-88202b107" target="_blank">
+                <img src="images/linkedin.svg" alt="LinkedIn image logo for my footer" width="12" height="12" />
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/facebook.svg" alt="facebook image logo for my footer" width="12" height="12" />
+            </a>
+
+            <a href="https://x.com/i/flow/login" target="_blank">
+                <img src="images/twitter-x.svg" alt="Twitter image logo for my footer" width="12" height="12" />
+            </a>
+
+        </div>
+
+        <div class="myinformation">
+            <p>WDD231 Class Project</p>
+            <p>Lazaro Felizardo Matola</p>
+
+            <p>&copy; <span id="currentyear"></span> - Beira Chamber of Commerce</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+/*---------HOME PAGE-----------*/
+
+.hero {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.hero img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+}
+
+.hero h3 {
+    background-color: rgb(212, 207, 199);
+    margin: 22em;
+    margin-left: 2em;
+    padding: 1em;
+    width: fit-content;
+    border-radius: 10px;
+
+}
+
+
+h3:hover {
+    background-color: #1a1a1a;
+}
+
+
+.stats {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 20px;
+}
+
+
+
+
+.box {
+    background-color: hsl(0, 6%, 94%);
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50px;
+
+}
+
+.box p {
+
+    text-align: justify;
+    padding: 10px;
+
+
+}
+
+
+.title {
+    background-color: #1a1a1a;
+    color: #f9f9f9;
+    padding: 10px;
+    margin: 0;
+    width: calc(100% + 0.5em);
+    box-sizing: border-box;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: none;
+    z-index: 1;
+}
+
+.tempinfo {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.grap #graphic {
+    width: 5rem;
+    height: 5rem;
+
+}
