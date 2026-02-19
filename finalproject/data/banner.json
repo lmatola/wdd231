@@ -1,0 +1,29 @@
+{
+    "images": [
+        {
+            "src": "images/banner/banner1.webp",
+            "alt": "image1",
+            "link": "banner1"
+        },
+        {
+            "src": "images/banner/banner2.webp",
+            "alt": "image2",
+            "link": "banner2"
+        },
+        {
+            "src": "images/banner/banner3.webp",
+            "alt": "image3",
+            "link": "banner3"
+        },
+        {
+            "src": "images/banner/banner4.webp",
+            "alt": "image4",
+            "link": "banner4"
+        },
+        {
+            "src": "images/banner/banner5.jpg",
+            "alt": "image5",
+            "link": "banner5"
+        }
+    ]
+}

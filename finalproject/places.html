@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project</title>
+    <meta name="description"
+        content="WDD 231 - Web Frontend Development - Lazaro Felizardo Matola directory page for the WDD 231 course">
+    <meta name="author" content="Lazaro Felizardo Matola">
+
+    <meta property="og:title" content="Beira City Chamber of Commerce Directory">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lmatola.github.io/wdd231/images/me.jpg">
+    <meta property="og:url" content="https://www.facebook.com">
+    <meta property="og:description"
+        content="The directory page for Beira City Chamber of Commerce where member can share their products">
+
+    <link rel="icon" href="images/social/favicon.ico">
+
+    <!--<link rel="stylesheet" href="styles/normalize.css">-->
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/banner.css">
+    <link rel="stylesheet" href="styles/places.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+
+
+    <!--Fonte Family-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+
+    <script src="scripts/dates.js" defer></script>
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/placesToStay.js" defer></script>
+
+
+</head>
+
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <div class="brand">
+                <img src="images/social/mylogo.svg" alt="site logo" width="15" height="15">
+                <a href="#" class="logo">Moz<span>.</span>Gastronomy</a>
+            </div>
+
+            <button id="ham-btn" class="hamburger" aria-label="navigation"></button>
+
+        </div>
+
+
+        <nav id="nav-bar" class="navigation">
+
+            <ul>
+                <li><a href="homepage.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="places.html">Places</a></li>
+                <li><a href="experts.html">Experts</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <main>
+
+        <h2 class="titleText">
+            Places to <span>S</span>tay
+        </h2>
+
+        <div class="grid-view" id="cards"></div>
+
+        <dialog id="course-details"></dialog>
+
+    </main>
+
+    <footer>
+        <div class="contact">
+            <p><strong>Moz Gastronomy</strong></p>
+            <p>256 Main Street</p>
+            <p>Beira City, BC 95993</p>
+            <p>@beiracity.org</p>
+            <p>258-576-6456</p>
+        </div>
+
+        <div class="socials">
+
+            <a href="https://github.com/lmatola" target="_blank">
+                <img src="images/social/github.svg" alt="GitHub-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/lazaro-felizardo-matola-88202b107" target="_blank">
+                <img src="images/social/linkedin.svg" alt="LinkedIn-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://www.facebook.com" target="_blank">
+                <img src="images/social/facebook.svg" alt="facebook-logo" width="12" height="12" />
+            </a>
+
+            <a href="https://x.com/i/flow/login" target="_blank">
+                <img src="images/social/twitter-x.svg" alt="Twitter-logo" width="12" height="12" />
+            </a>
+
+        </div>
+
+        <div class="myinformation">
+            <p>WDD231 Class Final Project</p>
+            <p>Lazaro Felizardo Matola</p>
+
+            <p>&copy; <span id="currentyear"></span> - Beira, Mozambique</p>
+            <p id="lastModified"></p>
+        </div>
+    </footer>
+
+</body>
+
+</html>

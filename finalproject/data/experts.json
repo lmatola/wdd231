@@ -1,0 +1,28 @@
+{
+    "experts": [
+        {
+            "name": "Chefe Rogerio",
+            "contact": "+258-846-957-107",
+            "description": "Specialized in Mozambican cuizine, focusing on cultural aspects of food",
+            "src": "images/chefs/Chef Rogerio.jpg"
+        },
+        {
+            "name": "Chef Teresa",
+            "contact": "+258-826-187-169",
+            "description": "A food stylist and founder of the  Calorine Kitchen, specializing in showcasing Mozambican cuisine through innovative imagery and recipes, focusing on dishes like Matapa and Peri-pire Chicken",
+            "src": "images/chefs/Chef Tereza.png"
+        },
+        {
+            "name": "Chef Virgilio",
+            "contact": "+258-875-603-948",
+            "description": "Specialized in Mozambican cuizine, focusing on cultural aspects of food",
+            "src": "images/chefs/Chef Virgilio.jpg"
+        },
+        {
+            "name": "Chef Zamiro",
+            "contact": "+258-848-943-919",
+            "description": "A food stylist and founder of the  Calorine Kitchen, specializing in showcasing Mozambican cuisine through innovative imagery and recipes, focusing on dishes like Matapa and Peri-pire Chicken",
+            "src": "images/chefs/Chef Zamiro.jpg"
+        }
+    ]
+}

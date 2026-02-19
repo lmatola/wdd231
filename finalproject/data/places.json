@@ -1,0 +1,76 @@
+{
+    "places": [
+        {
+            "name": "Bahia Mar Boutique Hotel",
+            "address": "Macúti, 2101, Beira, Sofala",
+            "category": "Beaches & Coastal Attractions",
+            "price": "2350 MT",
+            "description": "1st best value for money out of 868 places to stay in: Mozambique The staff is very friendly and professional. Suite with pool is very spacious, comfortable beds and very clean rooms. There is also a gym with personal trainer.",
+            "src": "images/placesToStay/Bahia Mar Boutique Hotel.webp"
+        },
+        {
+            "name": "Southern Sun",
+            "address": "Ponta-Gea, 2100, Beira, Sofala",
+            "category": "Beaches & Coastal Attractions",
+            "price": "2250 MT",
+            "description": "2nd best value for money out of 868 places to stay in: Mozambique Perfectly decorated rooms, with stunning views of the pool, garden and beach. very comfortable beds with all the necessary amenities for a great stay.",
+            "src": "images/placesToStay/Southern Sun.webp"
+        },
+        {
+            "name": "Radisson Blu Hotel & Residence, Maputo",
+            "address": "Macúti, 2100, Beira, Sofala",
+            "category": "Nature & Water Activities",
+            "price": "2150 MT",
+            "description": "3rd best value for money out of 868 places to stay in: Mozambique Rooms - spacious and comfortable (ask for east facing ocean). Great gym and pool too! The location is a 15-minute drive from the airport (approximate estimate 7 km)",
+            "src": "images/placesToStay/Radisson Blu Hotel & Residence, Maputo.webp"
+        },
+        {
+            "name": "White Pearl Resorts Ponta Mamoli",
+            "address": "Ponta-Gea, 2100, Beira, Sofala",
+            "category": "History & Culture",
+            "price": "2050 MT",
+            "description": "4th best value for money out of 868 places to stay in: Mozambique Suite with outdoor shower and fantastic plunge pool. The on-site SCUBA diving facilities are an added bonus as the waters in front of the resort are teeming with marine life.",
+            "src": "images/placesToStay/White Pearl Resorts Ponta Mamoli.webp"
+        },
+        {
+            "name": "Gala Gala Eco Resort",
+            "address": "Ponta-Gea, Beira, Sofala",
+            "category": "Culture & Local Life",
+            "price": "1950 MT",
+            "description": "5th best value for money out of 868 places to stay in: Mozambique The location is on the beach away from the hustle and bustle in a treetop full of lots of birds and butterflies. Delicious and quick coffee, breakfast and lunch. Lovely common area with comfortable sofas",
+            "src": "images/placesToStay/Gala Gala Eco Resort.webp"
+        },
+        {
+            "name": "StayEasy Maputo",
+            "address": "Maquinino, 2101, Beira, Sofala",
+            "category": "History & Urban Exploration",
+            "price": "1850 MT",
+            "description": "6th best value for money out of 868 places to stay in: Mozambique Convenient location opposite the beach and close to the airport. Next to Baia Mall which is also convenient. The rooms are very clean, modern and equipped with everything needed for a stay.",
+            "src": "images/placesToStay/StayEasy Maputo.webp"
+        },
+        {
+            "name": "Naara Eco Lodge & Spa",
+            "address": "Gorongosa, Sofala",
+            "category": "Nature & Wildlife",
+            "price": "1750 MT",
+            "description": "7th best value for money out of 868 places to stay in: Mozambique We have a boat trip to get to know the region better. Waiters are hospitable and always friendly. Overall, great food, great customer service.",
+            "src": "images/placesToStay/Naara Eco Lodge & Spa.webp"
+        },
+        {
+            "name": "Kumba Lodge",
+            "address": "Inhammizua, 2101, Beira, Sofala",
+            "category": "Beaches & Nature",
+            "price": "1650 MT",
+            "description": "8th best value for money out of 868 places to stay in: Mozambique, The property is excellently located, the rooms are clean, good breakfast, restaurant with excellent cuisine. Excellent staff, super friendly and helpful, the managers will treat you to suitable guests",
+            "src": "images/placesToStay/Kumba Lodge.webp"
+        },
+        {
+            "name": "Villas do Indico Ocean Eco-Resort & Spa",
+            "address": "Macúti, 2101, Beira, Sofala",
+            "category": "Food & Nightlife",
+            "price": "1550 MT",
+            "description": "9th best value for money out of 868 places to stay in: Mozambique The luxury accommodation was well decorated and clean. The fact that there are only 5 cottages means it can never be overcrowded. A fantastic team that takes great care of its customers.",
+            "src": "images/placesToStay/Villas do Indico Ocean Eco-Resort & Spa.webp"
+        }
+    ]
+}

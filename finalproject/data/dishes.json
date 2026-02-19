@@ -1,0 +1,52 @@
+{
+    "dishes": [
+        {
+            "name": "Badjias",
+            "price": "50 MT",
+            "description": "Badjias are fried snacks, typical of Indian cuisine, but also very popular in Mozambique, where they are normally made with Nhemba Bean flour and sold on the street along with bread, to serve as 'matabicho'",
+            "src": "images/dishes/Badjias.webp"
+        },
+        {
+            "name": "Cafreal Chicken",
+            "price": "350 MT",
+            "description": "Cafreal Chicken is typical of the province of Inhambane. It has nothing special other than the name",
+            "src": "images/dishes/Cafreal Chicken.webp"
+        },
+        {
+            "name": "Crab Curry",
+            "price": "275 MT",
+            "description": "The crab curry This seafood is prepared with legumes and vegetables. The recipe is very typical in the southern part of Mozambique.",
+            "src": "images/dishes/crab curry.webp"
+        },
+        {
+            "name": "Grilled Fish",
+            "price": "350 MT",
+            "description": "Grilled fish Made with any type of fish. It can go with potatoes, salads or even rice.",
+            "src": "images/dishes/Grilled fish.webp"
+        },
+        {
+            "name": "Mucapata",
+            "price": "300 MT",
+            "description": "Mucapata is a typical dish from the Province of Zambézia, in the central region of Mozambique, prepared with rice, beans and coconut. A delicious recipe that bears cultural marks of the Mozambican people, specifically the Chuabo ethnic group from Zambézia.",
+            "src": "images/dishes/Mucapata.webp"
+        },
+        {
+            "name": "Pumpkin With Coconut",
+            "price": "250 MT",
+            "description": "The Pumpkin coconut is a typical culinary sweet. Pumpkin is a fruit originating from the American continent, being important in the diet of pre-Columbian civilizations.",
+            "src": "images/dishes/Pumpkin with coconut.webp"
+        },
+        {
+            "name": "Xiguinha",
+            "price": "45 MT",
+            "description": "Xiguinha is a typical dish from the southern region of Mozambique, which for generations has been telling stories of joy and resilience about the wonderful Mozambican people",
+            "src": "images/dishes/xxiguinha.webp"
+        },
+        {
+            "name": "Zambezian Chicken",
+            "price": "450 MT",
+            "description": "Zambezian chicken It is a dish prepared with chicken and coconut. It is typical of the province of Zambézia.",
+            "src": "images/dishes/Zambezian chicken.webp"
+        }
+    ]
+}
